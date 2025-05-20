@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "graph_algorithms",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "efficiency_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-efficiency_tests-Debug-4487fcdd7be9677742f6.json",
+					"name" : "efficiency_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graph_algorithms_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graph_algorithms_lib-Debug-674ba2e366a9d5ed3784.json",
+					"name" : "graph_algorithms_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_mst::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_mst-Debug-bd6152a7934c8de80313.json",
+					"name" : "test_mst",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_sp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_sp-Debug-89b7843eae9ef567928a.json",
+					"name" : "test_sp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/matro/Downloads/PiAAGrafy25/PiAAGrafy/build",
+		"source" : "C:/Users/matro/Downloads/PiAAGrafy25/PiAAGrafy"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

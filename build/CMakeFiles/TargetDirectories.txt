@@ -1,0 +1,6 @@
+C:/Users/matro/Downloads/PiAAGrafy25/PiAAGrafy/build/CMakeFiles/graph_algorithms_lib.dir
+C:/Users/matro/Downloads/PiAAGrafy25/PiAAGrafy/build/CMakeFiles/test_sp.dir
+C:/Users/matro/Downloads/PiAAGrafy25/PiAAGrafy/build/CMakeFiles/test_mst.dir
+C:/Users/matro/Downloads/PiAAGrafy25/PiAAGrafy/build/CMakeFiles/efficiency_tests.dir
+C:/Users/matro/Downloads/PiAAGrafy25/PiAAGrafy/build/CMakeFiles/edit_cache.dir
+C:/Users/matro/Downloads/PiAAGrafy25/PiAAGrafy/build/CMakeFiles/rebuild_cache.dir

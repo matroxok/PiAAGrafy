@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libgraph_algorithms_lib.a CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.obj CMakeFiles/graph_algorithms_lib.dir/src/adjacency_matrix_graph.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libgraph_algorithms_lib.a
