@@ -115,7 +115,6 @@ CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/list.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/utility \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_relops.h \
- C:/Users/matro/Downloads/PiAAGrafy25/PiAAGrafy/include/graphs/graph.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/iostream \
  C:/msys64/ucrt64/include/c++/13.2.0/ostream \
  C:/msys64/ucrt64/include/c++/13.2.0/ios \
@@ -165,6 +164,13 @@ CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/istream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/set \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_tree.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/node_handle.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_set.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_multiset.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/erase_if.h \
+ C:/Users/matro/Downloads/PiAAGrafy25/PiAAGrafy/include/graphs/graph.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/random \
  C:/msys64/ucrt64/include/c++/13.2.0/cmath \
  C:/msys64/ucrt64/include/math.h \
@@ -194,10 +200,4 @@ CMakeFiles/graph_algorithms_lib.dir/src/adjacency_list_graph.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/random.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/numeric \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_numeric.h \
- C:/msys64/ucrt64/include/c++/13.2.0/pstl/glue_numeric_defs.h \
- C:/msys64/ucrt64/include/c++/13.2.0/set \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_tree.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/node_handle.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_set.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_multiset.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/erase_if.h
+ C:/msys64/ucrt64/include/c++/13.2.0/pstl/glue_numeric_defs.h

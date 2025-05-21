@@ -31,6 +31,7 @@ CMakeFiles/efficiency_tests.dir/src/main.cpp.obj: C:/Users/matro/Downloads/PiAAG
   C:/msys64/ucrt64/include/c++/13.2.0/bits/cpp_type_traits.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/cxxabi_forced.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/cxxabi_init_exception.h \
+  C:/msys64/ucrt64/include/c++/13.2.0/bits/erase_if.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/exception.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/exception_defines.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/exception_ptr.h \
@@ -52,6 +53,7 @@ CMakeFiles/efficiency_tests.dir/src/main.cpp.obj: C:/Users/matro/Downloads/PiAAG
   C:/msys64/ucrt64/include/c++/13.2.0/bits/move.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/nested_exception.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/new_allocator.h \
+  C:/msys64/ucrt64/include/c++/13.2.0/bits/node_handle.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream.tcc \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream_insert.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/postypes.h \
@@ -72,10 +74,13 @@ CMakeFiles/efficiency_tests.dir/src/main.cpp.obj: C:/Users/matro/Downloads/PiAAG
   C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator_base_types.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_list.h \
+  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_multiset.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_pair.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_raw_storage_iter.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_relops.h \
+  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_set.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_tempbuf.h \
+  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_tree.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_uninitialized.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_vector.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/streambuf.tcc \
@@ -119,6 +124,7 @@ CMakeFiles/efficiency_tests.dir/src/main.cpp.obj: C:/Users/matro/Downloads/PiAAG
   C:/msys64/ucrt64/include/c++/13.2.0/pstl/execution_defs.h \
   C:/msys64/ucrt64/include/c++/13.2.0/pstl/glue_memory_defs.h \
   C:/msys64/ucrt64/include/c++/13.2.0/pstl/pstl_config.h \
+  C:/msys64/ucrt64/include/c++/13.2.0/set \
   C:/msys64/ucrt64/include/c++/13.2.0/stdexcept \
   C:/msys64/ucrt64/include/c++/13.2.0/stdlib.h \
   C:/msys64/ucrt64/include/c++/13.2.0/streambuf \
@@ -182,6 +188,8 @@ CMakeFiles/efficiency_tests.dir/src/main.cpp.obj: C:/Users/matro/Downloads/PiAAG
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h
 
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/erase_if.h:
 
 C:/Users/matro/Downloads/PiAAGrafy25/PiAAGrafy/include/graphs/graph.hpp:
 
@@ -269,6 +277,8 @@ C:/msys64/ucrt64/include/c++/13.2.0/bits/postypes.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/concept_check.h:
 
+C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_set.h:
+
 C:/msys64/ucrt64/include/c++/13.2.0/bits/functional_hash.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h:
@@ -313,15 +323,17 @@ C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_facets.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_facets.tcc:
 
+C:/msys64/ucrt64/include/c++/13.2.0/bits/node_handle.h:
+
 C:/msys64/ucrt64/include/c++/13.2.0/cctype:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/localefwd.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/memory_resource.h:
+C:/msys64/ucrt64/include/c++/13.2.0/bits/shared_ptr_base.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algobase.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/shared_ptr_base.h:
+C:/msys64/ucrt64/include/c++/13.2.0/bits/memory_resource.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/error_constants.h:
 
@@ -355,6 +367,8 @@ C:/msys64/ucrt64/include/c++/13.2.0/ios:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_list.h:
 
+C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_multiset.h:
+
 C:/msys64/ucrt64/include/c++/13.2.0/exception:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_pair.h:
@@ -364,6 +378,8 @@ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_raw_storage_iter.h:
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_relops.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_tempbuf.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_tree.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_uninitialized.h:
 
@@ -446,6 +462,8 @@ C:/msys64/ucrt64/include/c++/13.2.0/pstl/execution_defs.h:
 C:/msys64/ucrt64/include/c++/13.2.0/pstl/glue_memory_defs.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/pstl/pstl_config.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/set:
 
 C:/msys64/ucrt64/include/c++/13.2.0/stdexcept:
 

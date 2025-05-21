@@ -13,6 +13,7 @@ void printMenu() {
     cout << "2. Dodaj krawedz\n";
     cout << "3. Usun krawedz\n";
     cout << "4. Wygeneruj losowy graf\n";
+    cout << "5. Zapisz graf do pliku\n";
     cout << "0. Wyjscie\n";
     cout << "Wybor: ";
 }
@@ -85,6 +86,34 @@ int main() {
                 } else {
                     cout << "Reprezentacja grafu nieobslugiwana.\n";
                 }
+                break;
+            }
+            case 5: {
+                string outFileName;
+                cout << "Podaj nazwe pliku do zapisu: ";
+                cin >> outFileName;
+
+                ofstream out(outFileName);
+                if (!out) {
+                    cout << "Nie mozna otworzyc pliku do zapisu.\n";
+                    break;
+                }
+
+                int V = 0, E = 0;
+                if (auto* listGraph = dynamic_cast<AdjacencyListGraph*>(graph.get())) {
+                    V = listGraph->getVertexCount();
+                    E = listGraph->getEdgeCount();
+                    out << V << " " << E << "\n";
+                    listGraph->writeToFile(out);
+                } else if (auto* matrixGraph = dynamic_cast<AdjacencyMatrixGraph*>(graph.get())) {
+                    V = matrixGraph->getVertexCount();
+                    E = matrixGraph->getEdgeCount();
+                    out << V << " " << E << "\n";
+                    matrixGraph->writeToFile(out);
+                }
+
+                out << "0\n"; // przykładowy wierzchołek startowy
+                cout << "Zapisano do pliku.\n";
                 break;
             }
             case 0:

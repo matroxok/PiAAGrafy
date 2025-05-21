@@ -5,13 +5,15 @@
 #include <vector>
 #include <list>
 #include <utility>
+#include <iostream>
+#include <set>
 #include "graphs/graph.hpp"
 
 class AdjacencyListGraph : public Graph
 {
   public:
     AdjacencyListGraph(int numVertices = 0);
-    
+
     void addEdge(int src, int dest, int weight) override;
     void removeEdge(int src, int dest) override;
     void display() const override;
@@ -19,7 +21,10 @@ class AdjacencyListGraph : public Graph
     static std::unique_ptr<Graph> createGraph(std::istream& is);
 
     void generateRandomGraph(int V, double density);
-    
+
+    int getVertexCount() const override;
+    int getEdgeCount() const override;
+    void writeToFile(std::ostream& os) const override;
 
   private:
     int numVertices;

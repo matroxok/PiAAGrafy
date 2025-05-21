@@ -1,7 +1,5 @@
 #include "graphs/adjacency_matrix_graph.hpp"
-#include <iostream>
 #include <random>
-#include <set>
 
 AdjacencyMatrixGraph::AdjacencyMatrixGraph(int numVertices)
     : numVertices(numVertices), adjMatrix(numVertices, std::vector<int>(numVertices, -1)) {}
@@ -9,6 +7,8 @@ AdjacencyMatrixGraph::AdjacencyMatrixGraph(int numVertices)
 void AdjacencyMatrixGraph::addEdge(int src, int dest, int weight) {
     if (src >= 0 && src < numVertices && dest >= 0 && dest < numVertices) {
         adjMatrix[src][dest] = weight;
+    } else {
+        std::cout << "Niepoprawne indeksy wierzcholkow: " << src << ", " << dest << std::endl;
     }
 }
 
@@ -67,6 +67,32 @@ void AdjacencyMatrixGraph::generateRandomGraph(int V, double density) {
         if (u != v && edges.insert({std::min(u, v), std::max(u, v)}).second) {
             addEdge(u, v, dist_weight(gen));
             addEdge(v, u, dist_weight(gen));
+        }
+    }
+}
+
+int AdjacencyMatrixGraph::getVertexCount() const {
+    return numVertices;
+}
+
+int AdjacencyMatrixGraph::getEdgeCount() const {
+    int count = 0;
+    for (int i = 0; i < numVertices; ++i) {
+        for (int j = i + 1; j < numVertices; ++j) {
+            if (adjMatrix[i][j] != -1) {
+                ++count;
+            }
+        }
+    }
+    return count;
+}
+
+void AdjacencyMatrixGraph::writeToFile(std::ostream& os) const {
+    for (int i = 0; i < numVertices; ++i) {
+        for (int j = i + 1; j < numVertices; ++j) {
+            if (adjMatrix[i][j] != -1) {
+                os << i << " " << j << " " << adjMatrix[i][j] << "\n";
+            }
         }
     }
 }

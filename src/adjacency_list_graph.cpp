@@ -1,7 +1,5 @@
 #include "graphs/adjacency_list_graph.hpp"
-#include <iostream>
 #include <random>
-#include <set>
 
 AdjacencyListGraph::AdjacencyListGraph(int numVertices)
     : numVertices(numVertices), adjList(numVertices) {}
@@ -9,6 +7,8 @@ AdjacencyListGraph::AdjacencyListGraph(int numVertices)
 void AdjacencyListGraph::addEdge(int src, int dest, int weight) {
     if (src >= 0 && src < numVertices && dest >= 0 && dest < numVertices) {
         adjList[src].emplace_back(dest, weight);
+    } else {
+        std::cout << "Niepoprawne indeksy wierzcholkow: " << src << ", " << dest << std::endl;
     }
 }
 
@@ -65,6 +65,29 @@ void AdjacencyListGraph::generateRandomGraph(int V, double density) {
         if (u != v && edges.insert({std::min(u, v), std::max(u, v)}).second) {
             addEdge(u, v, dist_weight(gen));
             addEdge(v, u, dist_weight(gen));
+        }
+    }
+}
+
+int AdjacencyListGraph::getVertexCount() const {
+    return numVertices;
+}
+
+int AdjacencyListGraph::getEdgeCount() const {
+    int count = 0;
+    for (const auto& neighbors : adjList) {
+        count += neighbors.size();
+    }
+    return count / 2;
+}
+
+void AdjacencyListGraph::writeToFile(std::ostream& os) const {
+    std::set<std::pair<int, int>> written;
+    for (int i = 0; i < numVertices; ++i) {
+        for (const auto& [dest, weight] : adjList[i]) {
+            if (written.insert({std::min(i, dest), std::max(i, dest)}).second) {
+                os << i << " " << dest << " " << weight << "\n";
+            }
         }
     }
 }

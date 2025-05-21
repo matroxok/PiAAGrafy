@@ -3,6 +3,8 @@
 
 #include <memory>
 #include <vector>
+#include <iostream>
+#include <set>
 #include "graphs/graph.hpp"
 
 class AdjacencyMatrixGraph : public Graph
@@ -17,6 +19,10 @@ class AdjacencyMatrixGraph : public Graph
     static std::unique_ptr<Graph> createGraph(std::istream& is);
 
     void generateRandomGraph(int V, double density);
+
+    int getVertexCount() const override;
+    int getEdgeCount() const override;
+    void writeToFile(std::ostream& os) const override;
 
   private:
     int numVertices;
