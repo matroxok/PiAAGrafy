@@ -101,9 +101,6 @@ CMakeFiles/test_mst.dir/src/mst_test_graphs.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/backward/auto_ptr.h \
  C:/msys64/ucrt64/include/c++/13.2.0/pstl/glue_memory_defs.h \
  C:/msys64/ucrt64/include/c++/13.2.0/pstl/execution_defs.h \
- C:/Users/matro/Downloads/PiAAGrafy25/PiAAGrafy/include/graphs/graph.hpp \
- C:/Users/matro/Downloads/PiAAGrafy25/PiAAGrafy/include/graphs/adjacency_matrix_graph.hpp \
- C:/Users/matro/Downloads/PiAAGrafy25/PiAAGrafy/include/graphs/minimum_spanning_tree_algorithms.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/vector \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_vector.h \
  C:/msys64/ucrt64/include/c++/13.2.0/initializer_list \
@@ -113,13 +110,15 @@ CMakeFiles/test_mst.dir/src/mst_test_graphs.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/memory_resource.h \
  C:/msys64/ucrt64/include/c++/13.2.0/cstddef \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator_args.h \
- C:/msys64/ucrt64/include/c++/13.2.0/filesystem \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/fs_fwd.h \
- C:/msys64/ucrt64/include/c++/13.2.0/system_error \
- C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/error_constants.h \
- C:/msys64/ucrt64/include/c++/13.2.0/cerrno \
- C:/msys64/ucrt64/include/c++/13.2.0/stdexcept \
- C:/msys64/ucrt64/include/c++/13.2.0/string \
+ C:/msys64/ucrt64/include/c++/13.2.0/list \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_list.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/list.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/utility \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_relops.h \
+ C:/Users/matro/Downloads/PiAAGrafy25/PiAAGrafy/include/graphs/graph.hpp \
+ C:/msys64/ucrt64/include/c++/13.2.0/iostream \
+ C:/msys64/ucrt64/include/c++/13.2.0/ostream \
+ C:/msys64/ucrt64/include/c++/13.2.0/ios \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/char_traits.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/localefwd.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++locale.h \
@@ -128,6 +127,9 @@ CMakeFiles/test_mst.dir/src/mst_test_graphs.cpp.obj: \
  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
  C:/msys64/ucrt64/include/c++/13.2.0/cctype \
  C:/msys64/ucrt64/include/ctype.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/ios_base.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_classes.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/string \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream_insert.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/cxxabi_forced.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_string.h \
@@ -142,8 +144,31 @@ CMakeFiles/test_mst.dir/src/mst_test_graphs.cpp.obj: \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/std_abs.h \
  C:/msys64/ucrt64/include/c++/13.2.0/cstdio \
+ C:/msys64/ucrt64/include/c++/13.2.0/cerrno \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/charconv.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_string.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_classes.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/system_error \
+ C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/error_constants.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/stdexcept \
+ C:/msys64/ucrt64/include/c++/13.2.0/streambuf \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/streambuf.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_ios.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_facets.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/cwctype \
+ C:/msys64/ucrt64/include/wctype.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/streambuf_iterator.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_facets.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_ios.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/istream \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc \
+ C:/Users/matro/Downloads/PiAAGrafy25/PiAAGrafy/include/graphs/adjacency_matrix_graph.hpp \
+ C:/Users/matro/Downloads/PiAAGrafy25/PiAAGrafy/include/graphs/minimum_spanning_tree_algorithms.hpp \
+ C:/msys64/ucrt64/include/c++/13.2.0/filesystem \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/fs_fwd.h \
  C:/msys64/ucrt64/include/c++/13.2.0/cstdint \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/chrono.h \
  C:/msys64/ucrt64/include/c++/13.2.0/ratio \
@@ -152,18 +177,6 @@ CMakeFiles/test_mst.dir/src/mst_test_graphs.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/parse_numbers.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/fs_path.h \
  C:/msys64/ucrt64/include/c++/13.2.0/locale \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_classes.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_classes.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_facets.h \
- C:/msys64/ucrt64/include/c++/13.2.0/cwctype \
- C:/msys64/ucrt64/include/wctype.h \
- C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/ios_base.h \
- C:/msys64/ucrt64/include/c++/13.2.0/streambuf \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/streambuf.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/streambuf_iterator.h \
- C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_facets.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_facets_nonio.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/time_members.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/messages_members.h \
@@ -173,13 +186,6 @@ CMakeFiles/test_mst.dir/src/mst_test_graphs.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/iomanip \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/quoted_string.h \
  C:/msys64/ucrt64/include/c++/13.2.0/sstream \
- C:/msys64/ucrt64/include/c++/13.2.0/istream \
- C:/msys64/ucrt64/include/c++/13.2.0/ios \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_ios.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_ios.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/ostream \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/sstream.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/codecvt \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/fs_dir.h \
@@ -209,8 +215,6 @@ CMakeFiles/test_mst.dir/src/mst_test_graphs.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/uniform_int_dist.h \
  C:/msys64/ucrt64/include/c++/13.2.0/algorithm \
  C:/msys64/ucrt64/include/c++/13.2.0/pstl/glue_algorithm_defs.h \
- C:/msys64/ucrt64/include/c++/13.2.0/utility \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_relops.h \
  C:/msys64/ucrt64/include/c++/13.2.0/random \
  C:/msys64/ucrt64/include/c++/13.2.0/cmath \
  C:/msys64/ucrt64/include/math.h \
@@ -425,5 +429,4 @@ CMakeFiles/test_mst.dir/src/mst_test_graphs.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/regex_executor.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/regex_executor.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/iterator \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stream_iterator.h \
- C:/msys64/ucrt64/include/c++/13.2.0/iostream
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stream_iterator.h

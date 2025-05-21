@@ -418,6 +418,9 @@ CMakeFiles/test_sp.dir/src/sp_test_graphs.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stream_iterator.h \
  C:/msys64/ucrt64/include/c++/13.2.0/iostream \
  C:/Users/matro/Downloads/PiAAGrafy25/PiAAGrafy/include/graphs/adjacency_list_graph.hpp \
+ C:/msys64/ucrt64/include/c++/13.2.0/list \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_list.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/list.tcc \
  C:/Users/matro/Downloads/PiAAGrafy25/PiAAGrafy/include/graphs/graph.hpp \
  C:/Users/matro/Downloads/PiAAGrafy25/PiAAGrafy/include/graphs/adjacency_matrix_graph.hpp \
  C:/Users/matro/Downloads/PiAAGrafy25/PiAAGrafy/include/graphs/shortest_path_algorithms.hpp \
