@@ -9,6 +9,11 @@
 #include <set>
 #include "graphs/graph.hpp"
 
+// Reprezentacja grafu w postaci listy sąsiedztwa.
+// _dodawanie/usuwanie krawędzi, generowanie losowego grafu,
+// _wczytywanie grafu z pliku oraz jego wyświetlanie.
+// _dziedziczy po klasie abstrakcyjnej Graph.
+
 class AdjacencyListGraph : public Graph
 {
   public:

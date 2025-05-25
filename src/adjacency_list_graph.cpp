@@ -1,6 +1,11 @@
 #include "graphs/adjacency_list_graph.hpp"
 #include <random>
 
+// Implementacja grafu w postaci listy sąsiedztwa.
+// _metody do dodawania i usuwania krawędzi, wyświetlania grafu,
+// _tworzenia grafu z pliku, generowania losowego grafu oraz zapisu do pliku.
+// _używamy kontenera std::vector<std::list<pair<int, int>>> do reprezentacji sąsiedztwa.
+
 AdjacencyListGraph::AdjacencyListGraph(int numVertices)
     : numVertices(numVertices), adjList(numVertices) {}
 

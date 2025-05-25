@@ -7,6 +7,11 @@
 #include <set>
 #include "graphs/graph.hpp"
 
+// Reprezentacja grafu w postaci macierzy sąsiedztwa.
+// _dodawanie i usuwanie krawędzi, wyświetlanie grafu,
+// _generowanie grafów losowych oraz wczytywanie ich z pliku.
+// _dziedziczy po klasie bazowej Graph.
+
 class AdjacencyMatrixGraph : public Graph
 {
   public:

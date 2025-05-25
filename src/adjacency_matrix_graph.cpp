@@ -1,6 +1,11 @@
 #include "graphs/adjacency_matrix_graph.hpp"
 #include <random>
 
+// Implementacja grafu w postaci macierzy sąsiedztwa.
+// _dodawanie i usuwanie krawędzi, wyświetlanie grafu,
+// _tworzenie grafu z pliku, generowanie grafu losowego oraz zapis do pliku.
+// _macierz zawiera wagę krawędzi (np. 2) lub -1 jeśli krawędź nie istnieje.
+
 AdjacencyMatrixGraph::AdjacencyMatrixGraph(int numVertices)
     : numVertices(numVertices), adjMatrix(numVertices, std::vector<int>(numVertices, -1)) {}
 

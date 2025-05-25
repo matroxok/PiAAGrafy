@@ -5,6 +5,14 @@
 #include <memory>
 #include <limits>
 
+// Opcje programu:
+// - wybieramy reprezentację grafu (lista lub macierz sąsiedztwa),
+// - wczytujemy graf z pliku,
+// - wyświetlamy graf,
+// - dodajemy/usuwamy krawędź,
+// - generujemy losowy graf o zadanych parametrach,
+// - zapisujemy graf do pliku.
+
 using namespace std;
 
 void printMenu() {
@@ -12,21 +20,21 @@ void printMenu() {
     cout << "1. Wyswietl graf\n";
     cout << "2. Dodaj krawedz\n";
     cout << "3. Usun krawedz\n";
-    cout << "4. Wygeneruj losowy graf\n";
+    cout << "4. Losowy graf\n";
     cout << "5. Zapisz graf do pliku\n";
-    cout << "0. Wyjscie\n";
-    cout << "Wybor: ";
+    cout << "0. Przerwwij program\n";
+    cout << "Wybor ==>  ";
 }
 
 int main() {
     cout << "Wybierz reprezentacje grafu:\n";
     cout << "1. Lista sasiedztwa\n";
     cout << "2. Macierz sasiedztwa\n";
-    cout << "Twoj wybor: ";
+    cout << "Wybor ==>  ";
 
     int choice;
     cin >> choice;
-    cin.ignore(numeric_limits<streamsize>::max(), '\n'); // czysci bufor
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
     unique_ptr<Graph> graph;
 
@@ -77,25 +85,25 @@ int main() {
                 double density;
                 cout << "Podaj liczbe wierzcholkow: ";
                 cin >> V;
-                cout << "Podaj gestosc grafu (np. 0.25, 0.5, 0.75, 1.0): ";
+                cout << "Podaj gestosc grafu (0.25, 0.5, 0.75, 1.0): ";
                 cin >> density;
                 if (auto* listGraph = dynamic_cast<AdjacencyListGraph*>(graph.get())) {
                     listGraph->generateRandomGraph(V, density);
                 } else if (auto* matrixGraph = dynamic_cast<AdjacencyMatrixGraph*>(graph.get())) {
                     matrixGraph->generateRandomGraph(V, density);
                 } else {
-                    cout << "Reprezentacja grafu nieobslugiwana.\n";
+                    cout << "Blad: taki graf nie jest wspierany!\n";
                 }
                 break;
             }
             case 5: {
                 string outFileName;
-                cout << "Podaj nazwe pliku do zapisu: ";
+                cout << "Podaj nazwe pliku: ";
                 cin >> outFileName;
 
                 ofstream out(outFileName);
                 if (!out) {
-                    cout << "Nie mozna otworzyc pliku do zapisu.\n";
+                    cout << "Blad: nie ma takiego pliku\n";
                     break;
                 }
 
@@ -112,15 +120,15 @@ int main() {
                     matrixGraph->writeToFile(out);
                 }
 
-                out << "0\n"; // przykładowy wierzchołek startowy
-                cout << "Zapisano do pliku.\n";
+                out << "0\n";
+                cout << "Plik zostal zapisany\n";
                 break;
             }
             case 0:
-                cout << "Zakonczono.\n";
+                cout << "Zakonczono\n";
                 break;
             default:
-                cout << "Niepoprawny wybor.\n";
+                cout << "Blad: wylaczam program\n";
         }
     } while (option != 0);
 

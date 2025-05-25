@@ -3,6 +3,11 @@
 
 #include <iostream>
 
+// Abstrakcyjna klasa bazowa reprezentująca interfejs grafu.
+// _reprezentacje grafu: ista sąsiedztwa, macierz sąsiedztwa
+// _dzięki temu możliwe jest korzystanie z grafów w sposób uogólniony,
+// _niezależnie od ich wewnętrznej struktury.
+
 class Graph
 {
   public:
